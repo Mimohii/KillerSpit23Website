@@ -79,7 +79,6 @@ ul li.active a{
 /* Fake image */
 .fakeimg {
   background-color: #aaa;
-  width: 90%;
   padding: 20px;
   border: 5px solid #555;
 
@@ -103,9 +102,15 @@ ul li.active a{
 .footer {
   padding: 20px;
   text-align: center;
-  background: transparent;
+  background: pink;
   margin-top: 20px;
-  opacity: 25%;
+  position: static;
+  left: 0;
+  bottom: 0;
+  top: 100;
+  right: 0;
+  width: 50%;
+
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
