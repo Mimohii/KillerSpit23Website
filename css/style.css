@@ -11,6 +11,7 @@ body{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+  margin-bottom: 50px;
 }
 
 ul{
@@ -65,19 +66,16 @@ ul li.active a{
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {
-  float: left;
-  width: 75%;
+padding-bottom: 50px;
+  width: 100%;
 }
 
 /* Right column */
-.rightcolumn {
-  float: left;
-  width: 25%;
-  padding-left: 20px;
-}
+
 
 /* Fake image */
 .fakeimg {
+  float: left;
   background-color: #aaa;
   padding: 20px;
   border: 5px solid #555;
@@ -86,9 +84,12 @@ ul li.active a{
 
 /* Add a card effect for articles */
 .card {
+   
+  float: left;
   background-color: pink;
   padding: 20px;
   margin-top: 20px;
+  padding-bottom: 25px;
 }
 
 /* Clear floats after the columns */
@@ -100,17 +101,17 @@ ul li.active a{
 
 /* Footer */
 .footer {
-  padding: 20px;
-  text-align: center;
-  background: pink;
-  margin-top: 20px;
-  position: static;
+  position: fixed;
   left: 0;
   bottom: 0;
-  top: 100;
-  right: 0;
-  width: 50%;
-
+  width: 100%;
+  opacity: 50%;
+  background-color: pink;
+  color: black;
+  text-align: center;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  flex-shrink: 0;
 }
 
 /*for player section */
@@ -133,3 +134,4 @@ ul li.active a{
 header{
 
 }
+
